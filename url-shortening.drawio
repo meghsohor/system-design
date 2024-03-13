@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T07:49:20.285Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="GF1YK7YnMxB5G0Bp0qmU" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T07:56:07.113Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="gmaQi-iWi7iyzsPPHe8t" version="24.0.5" type="github">
   <diagram name="Page-1" id="GF0OJ3_MTfcbiwmNIs6B">
     <mxGraphModel dx="1242" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,6 +51,18 @@
             <mxPoint x="670" y="395" as="sourcePoint" />
             <mxPoint x="720" y="390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rEHcowNwLkk8W2btPBsA-20" value="Functional Req." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rEHcowNwLkk8W2btPBsA-21" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Generate short url&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Redirect short url to long url&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="rEHcowNwLkk8W2btPBsA-20">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="rEHcowNwLkk8W2btPBsA-24" value="Non-functional Req." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="265" y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rEHcowNwLkk8W2btPBsA-25" value="&lt;ul&gt;&lt;li&gt;High availability&lt;/li&gt;&lt;li&gt;Scalability&lt;/li&gt;&lt;li&gt;Analytics&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="rEHcowNwLkk8W2btPBsA-24">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
